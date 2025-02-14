@@ -1,0 +1,31 @@
+jtex: v1
+title: QuantEcon
+description: A dedicated theme for the QuantEcon course materials
+version: 1.0.0
+license: MIT
+source: https://github.com/curvenote-themes/quantecon
+thumbnail: ./thumbnail.png
+authors:
+  - name: Steve Purves
+    website: https://curvenote.com
+    affiliations:
+      - Curvenote
+  - name: Rowan Cockett
+    website: https://curvenote.com
+    affiliations:
+      - Curvenote
+tags:
+  - book
+  - course
+parts:
+  - id: footer
+    description: The site wide footer
+build:
+  install: npm install
+  start: npm run start
+files:
+  - server.js
+  - package.json
+  - package-lock.json
+  - public/**/*
+  - build/**/*

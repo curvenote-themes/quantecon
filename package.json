@@ -1,0 +1,22 @@
+{
+  "name": "@curvenote-themes/quantecon",
+  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "@remix-run/express": "^1.19.3",
+    "@remix-run/node": "^1.19.3",
+    "compression": "^1.8.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "get-port": "^5.1.1",
+    "isbot": "^3.8.0",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
